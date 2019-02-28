@@ -1,0 +1,2 @@
+#!/bin/bash
+java -cp target/offheapmap*.jar -Djava.library.path=$(pwd)/target/ -Xmx1m com.aerserv.offheapmap.App 5 

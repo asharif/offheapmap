@@ -1,0 +1,5 @@
+Intro:
+
+offheapmap uses a std:unordered_map to store k,v of java String types.  It's purpose is to hide stuff from the GC.  
+The *.dylib and *.so files are included as resources and will work without any setup as long as java is started with
+-Djava.library.path=
